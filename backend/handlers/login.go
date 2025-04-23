@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	// Import your models package (adjust path 'myapp' if your module name is different)
-	"myapp/models"
+	"github.com/Ikeel04/LoginSTW/backend/models"
 
 	"golang.org/x/crypto/bcrypt"
 )

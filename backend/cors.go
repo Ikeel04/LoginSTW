@@ -19,4 +19,5 @@ func configureCORS() func(http.Handler) http.Handler {
         AllowCredentials: true, // Importante si usan cookies o auth headers
         MaxAge:           300, // Maximum value not ignored by any of major browsers
     })
-    return corsMiddleware Handler
+    return corsMiddleware.Handler
+}
